@@ -7,75 +7,150 @@ tg.MainButton.color = '#2cab37';
 
 let item = "";
 
-let btn1 = document.getElementById("btn1");
-let btn2 = document.getElementById("btn2");
-let btn3 = document.getElementById("btn3");
-let btn4 = document.getElementById("btn4");
-let btn5 = document.getElementById("btn5");
-let btn6 = document.getElementById("btn6");
+let ph1 = document.getElementById("ph1");
+let ph2 = document.getElementById("ph2");
+let mou1 = document.getElementById("mou1");
+let mou2 = document.getElementById("mou2");
+let mic1 = document.getElementById("mic1");
+let mic2 = document.getElementById("mic2");
 
-btn1.addEventListener("click", function(){
+let key1 = document.getElementById("key1");
+let key2 = document.getElementById("key2");
+let hed1 = document.getElementById("hed1");
+let hed2 = document.getElementById("hed2");
+
+let gam1 = document.getElementById("gam1");
+let gam2 = document.getElementById("gam2");
+
+
+ph1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 1!");
+		tg.MainButton.setText("Вы выбрали товар телефон 1!");
 		item = "1";
 		tg.MainButton.show();
 	}
 });
 
-btn2.addEventListener("click", function(){
+ph2.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 2!");
+		tg.MainButton.setText("Вы выбрали товар телефон 2!");
 		item = "2";
 		tg.MainButton.show();
 	}
 });
 
-btn3.addEventListener("click", function(){
+mou1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 3!");
+		tg.MainButton.setText("Вы выбрали товар мышка 1!");
 		item = "3";
 		tg.MainButton.show();
 	}
 });
 
-btn4.addEventListener("click", function(){
+mou2.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 4!");
+		tg.MainButton.setText("Вы выбрали товар мышка 2!");
 		item = "4";
 		tg.MainButton.show();
 	}
 });
 
-btn5.addEventListener("click", function(){
+mic1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 5!");
+		tg.MainButton.setText("Вы выбрали товар микрофон 1!");
 		item = "5";
 		tg.MainButton.show();
 	}
 });
 
-btn6.addEventListener("click", function(){
+mic2.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
 		tg.MainButton.hide();
 	}
 	else {
-		tg.MainButton.setText("Вы выбрали товар 6!");
+		tg.MainButton.setText("Вы выбрали товар микрофон 2!");
 		item = "6";
+		tg.MainButton.show();
+	}
+});
+
+key1.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар клавиатура 1!");
+		item = "7";
+		tg.MainButton.show();
+	}
+});
+
+key2.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар клавиатура 2!");
+		item = "8";
+		tg.MainButton.show();
+	}
+});
+
+hed1.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар наушники 1!");
+		item = "9";
+		tg.MainButton.show();
+	}
+});
+
+hed2.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар наушники 2!");
+		item = "10";
+		tg.MainButton.show();
+	}
+});
+
+gam1.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар геймпад 1!");
+		item = "11";
+		tg.MainButton.show();
+	}
+});
+
+gam2.addEventListener("click", function(){
+	if (tg.MainButton.isVisible) {
+		tg.MainButton.hide();
+	}
+	else {
+		tg.MainButton.setText("Вы выбрали товар геймпад 2!");
+		item = "12";
 		tg.MainButton.show();
 	}
 });
