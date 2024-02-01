@@ -181,6 +181,7 @@ if (gam2) {
 
 Telegram.WebApp.onEvent("mainButtonClicked", function(){
 	tg.sendData(item);
+	window.close();
 });
 
 
