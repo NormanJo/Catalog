@@ -121,21 +121,19 @@ body {
   }
   
   .buy, .prev, .next, .home {
-  display: inline-flex;
-  background-color: #ffa501;
-  padding: 10px 10px 10px 10px;
-  color: #fff;
-  border-radius: 30px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: "Montserrat";
-  transition: all .6s;
-  border: 3px solid #ffa501;
-  cursor: pointer;
-  width: 100px;
-  text-align: center;
-}
-
+    display: inline-flex;
+    background-color: #ffa501;
+    padding: 1vw 2vw;
+    font-size: 1.5vw; 
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Montserrat";
+    transition: all .6s;
+    border: 3px solid #ffa501;
+    cursor: pointer;
+  }
   
   .buy:hover {
     color: #ffa501;
@@ -143,11 +141,10 @@ body {
   }
   
   .button-container {
-    display: flex;
-    justify-content: space-between;
     position: absolute;
-    right: 10px;
-    bottom: 10px;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-around;
   }
   
   
