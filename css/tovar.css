@@ -120,19 +120,22 @@ body {
     display: inline-flex;
   }
   
-  .buy, .prev, .next, .home {
-    display: inline-flex;
-    background-color: #ffa501;
-    padding: 14px 35px 12px 35px;
-    color: #fff;
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: "Montserrat";
-    transition: all .6s;
-    border: 3px solid #ffa501;
-    cursor: pointer;
-  }
+  .buy, .prev, .next {
+  display: inline-flex;
+  background-color: #ffa501;
+  padding: 10px 10px 10px 10px;
+  color: #fff;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Montserrat";
+  transition: all .6s;
+  border: 3px solid #ffa501;
+  cursor: pointer;
+  width: 100px;
+  text-align: center;
+}
+
   
   .buy:hover {
     color: #ffa501;
