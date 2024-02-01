@@ -120,7 +120,7 @@ body {
     display: inline-flex;
   }
   
-  .buy, .prev, .next {
+  .buy, .prev, .next, .home {
   display: inline-flex;
   background-color: #ffa501;
   padding: 10px 10px 10px 10px;
